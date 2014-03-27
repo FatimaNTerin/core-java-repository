@@ -1,0 +1,30 @@
+package student.java;
+//given:public int studentId();
+
+public class Student1 
+   {
+
+public int studentId() // [access specifier][method type][methodname] ();            
+   {
+     int studentId=101359237; // step1 :put a value to the variable.
+     return studentId;        // step2 :call return.
+   }
+
+public static void main(String[] args) 
+   {
+     Student1 A2=new Student1(); // step3 :create object.( classname objectname=new classname; )
+     A2.studentId();             // step4 :call method.  ( objectname. methodname();)
+     
+     // METHOD -1 (Takes less memory)
+     System.out.println( "Student Id :" + A2.studentId()); // step5: print it.
+    
+     // METHOD -2 (Takes more memory)
+     // int X= A2.studentId();  // store it in a variable.
+    // System.out.println( "Student Id :" + X);
+
+   }
+
+   }	
+	
+
+
