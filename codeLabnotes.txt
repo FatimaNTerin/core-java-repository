@@ -1,0 +1,19 @@
+codeLab notes:
+in order to create constants we have to write "final" keyword.
+
+declaring a variable : int a;
+intitializing a variable int a =12;
+
+what is casting expression in java?
+Casting is essentially converting one data type to another, such as: 
+double d = 4.0;
+int c = d; //will give an error
+
+Whereas code like this:
+double d = 4.0;
+int c = (int)d; //no error, 4 assigned to c
+
+because you told Java you know you may lose precision 
+(if d was equal to 4.9, c would still equal 4) but that you wish to simply 
+truncate the other value, Java is happy to cast the double to an int.
+
