@@ -1,0 +1,41 @@
+
+JAVA is an object oriented programming language.
+JAVA is a strongly typed , case sensitive programming language.
+
+class:class is a blueprint of an object.Example: vehicle is a blueprint or template of a car.
+
+object:object is an instance of a class. (IS-A) example: car can be an instance or example of a vehicle/ car IS-A vehicle.
+
+variable /fields:is a temporary storage in the heap. (variable is actually pot.)
+we store  properties of an object in a variable.
+
+there are two types of variable:( can be private/public......etc)
+1-primitive    2- reference
+long
+short
+int
+double
+boolean
+float
+String is not a pure primitive... but we treat it as one.
+
+method: A Java method is a collection of statements that are grouped together to perform an operation/action/function.
+can be public/private/protected.(we must call the method.)
+1- public static void main ( String[] args){}.
+2- [public] [void][method name](); ( it will not give us any return value)
+
+3- [public] [int][method name] ( it will give us return value)
+            [double]
+            [long]
+            [short]
+            [String]
+            [boolean]
+
+constructor:
+to initialize the object.(we dont need to call the method.) in constructor there is no return type.consturctor name=class name.
+
+an application might have normal methods or not.
+but an application must have a main method to run the application.
+without main method it will not print anything to the console.
+
+
